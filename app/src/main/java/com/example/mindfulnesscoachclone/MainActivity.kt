@@ -45,93 +45,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
 
-
-            HomePage()
-
+            Homepage()
 
 
         }
     }
 }
 
-@Composable
-fun HomePage(){
-
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-    ) {
-
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-        ) {
-
-                Card{
-                    Image(
-                        painter = painterResource(id = R.drawable.mindfulnesstraining),
-                        contentDescription = null,
-                        modifier = Modifier
-                            .size(150.dp)
-
-                    )
-                    Text(text = "MINDFULNESS TRAINING")
-
-                }
-
-
-
-
-                Card {
-                    Image(
-                        painter = painterResource(id = R.drawable.practisenow),
-                        contentDescription = null,
-                        modifier = Modifier
-                            .size(150.dp)
-
-                    )
-                    Text(text = "PRACTICE NOW")
-
-                }
-            }
-
-
-        Spacer(modifier = Modifier.height(20.dp))
-
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-        ) {
-
-                Card {
-                    Image(painter = painterResource(id = R.drawable.trackprogress),
-                        contentDescription = null,
-                        modifier = Modifier
-                            .size(150.dp)
-
-                    )
-                    Text(text = "TRACK PROGRESS")
-                }
-
-
-
-                Card {
-                    Image(
-                        painter = painterResource(id = R.drawable.buildexpertise),
-                        contentDescription = null,
-                        modifier = Modifier
-                            .size(150.dp)
-
-                    )
-                    Text(text = "BUILD EXPERTISE")
-                }
-            }
-
-
-
-    }
-
-
-
-
-}
