@@ -13,6 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MindfulnessCoachClone"
+rootProject.name = "mindless_clone"
 include(":app")
- 
