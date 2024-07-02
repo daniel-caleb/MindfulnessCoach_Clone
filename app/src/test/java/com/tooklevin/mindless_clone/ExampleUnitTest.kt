@@ -1,4 +1,4 @@
-package com.example.mindfulnesscoachclone
+package com.tooklevin.mindless_clone
 
 import org.junit.Test
 
